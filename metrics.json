@@ -1,0 +1,36 @@
+{
+  "train_n": 310,
+  "test_n": 104,
+  "seed": 42,
+  "features": [
+    "Age",
+    "Dist.MRT",
+    "N.Cstores"
+  ],
+  "best_parameters": {
+    "max_depth": 10,
+    "max_features": 1.0,
+    "min_samples_leaf": 1
+  },
+  "training_cv_RMSE": 7.677503537299529,
+  "test_metrics": {
+    "Training mean": {
+      "RMSE": 12.962143730079696,
+      "MAE": 10.703920595533496,
+      "R2": -0.05925257221295399
+    },
+    "Linear regression": {
+      "RMSE": 8.48358157356361,
+      "MAE": 6.2122387536240815,
+      "R2": 0.5462628467306379
+    },
+    "Random forest": {
+      "RMSE": 6.639664741908034,
+      "MAE": 4.643622837353233,
+      "R2": 0.7220682489088281
+    }
+  },
+  "python": "3.12.14",
+  "sklearn": "1.9.1",
+  "data_sha256": "710fd00e77d22cfcc418cb53c41cfe74e26f5b6bbdfd1eed660243539ad5faf2"
+}
